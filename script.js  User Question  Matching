@@ -1,0 +1,10 @@
+function findBestMatch(question){
+
+    question = preprocess(question);
+
+    if(faqs[question]){
+       return faqs[question];
+    }
+
+    return "Sorry, I donot know that answer .";
+}
