@@ -1,0 +1,11 @@
+function  addFAQ(question ,answer)
+
+faqs[
+     preprocess(question)] = answer;
+
+}
+
+addFAQ(
+   "what is python",
+   "python is a programming language."
+);
