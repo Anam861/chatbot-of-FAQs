@@ -1,0 +1,9 @@
+function deleteFAQ(question){
+
+      delete faqs[
+           preprocess(question)];
+
+}
+deleteFAQ("what is HTML");
+
+    
