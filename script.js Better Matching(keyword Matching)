@@ -1,0 +1,11 @@
+function findBestMatch(question){
+
+     question =preprocess(question);
+
+     for (let key in faqs){
+
+          if(question .includes(key)){
+                 return faqs[key];
+          }
+     }
+      return "Sorry,answer  not found.";
