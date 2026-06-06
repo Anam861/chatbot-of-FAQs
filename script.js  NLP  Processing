@@ -1,0 +1,7 @@
+function preprocess(text){
+
+   return text
+   .tolowercase()
+   .trim9();
+
+}
