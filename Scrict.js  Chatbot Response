@@ -1,0 +1,12 @@
+function getAnswer(){
+
+   let input = document.getElementByid("User Input");
+   let userQuestion= input .Value;
+   let Answer = findBestMatch(userQuestion);
+   let ChatBox = document. getElementById("chat-box");
+
+   chatBox.innerHTML +="<div Class='User'>You:"+ UserQuestion +"</div>
+    chatBox .inerHTML +="<div class='bot'>Bot: "+ anwer +"</div>";
+    input . value ="";
+}
+   
