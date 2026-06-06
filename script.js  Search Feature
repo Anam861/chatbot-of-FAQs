@@ -1,0 +1,6 @@
+function searchFAQ(question){
+
+      question =preprocess(question);
+
+      return faqs[question];
+}
